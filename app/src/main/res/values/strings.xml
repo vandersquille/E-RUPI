@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">E-RUPI</string>
+    <string name="_91">91</string>
+    <string name="enter_your_number">Enter your number</string>
+    <string name="textview">TextView</string>
+    <string name="get_otp">GET OTP</string>
+    <string name="logout">LOGOUT</string>
+    <string name="settings">Settings</string>
+
+</resources>

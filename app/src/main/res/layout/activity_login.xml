@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/input_country_code"
+        android:layout_width="46dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="36dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="@string/_91"
+        android:inputType="number"
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/input_phone"
+        tools:ignore="RtlSymmetry"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/input_phone"
+        android:layout_width="236dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="@string/enter_your_number"
+        android:inputType="phone"
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toEndOf="@+id/input_country_code"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints=""
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/send_codebtn"
+
+        android:layout_width="275dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#061e34"
+        android:text="@string/get_otp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_country_code" />
+
+    <TextView
+        android:id="@+id/text_process"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/textview"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/send_codebtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

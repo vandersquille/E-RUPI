@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "644788555828",
+    "project_id": "e-rupi-12155",
+    "storage_bucket": "e-rupi-12155.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644788555828:android:3bc9c8e5ced0721d007a61",
+        "android_client_info": {
+          "package_name": "com.example.e_rupi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644788555828-r3n8qr51q99of462m4rmc7d8cd46qm20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFkU2hfiTspCW_bMwBrFeLMbQPefteSyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644788555828-r3n8qr51q99of462m4rmc7d8cd46qm20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
